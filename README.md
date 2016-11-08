@@ -1,13 +1,13 @@
 # smartmeter.py: extract data from "smart" power-meters
 
-This tool can read the values contained inside Landis+Gyr
+This tool reads the values contained inside Landis+Gyr
 power-meters and sends the output to Influxdb. It has been 
 tested with the E230 model but I guess that it should work 
 with IEC 62056 compliant devices too.
 
 # install
 
-1. Install few dependencies using pip
+Install few dependencies using pip
 
 * pyserial
 * influxdb
